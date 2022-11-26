@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(228, 234, 164);
+    position: sticky;
+}
+
+ul{
+    display: flex;
+    margin-left: 25em;
+    
+}
+
+ nav li a{
+    padding-left: 54px;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+}

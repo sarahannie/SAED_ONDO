@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+    display: flex;
+    background-image: -webkit-linear-gradient(120deg, #313131 50%,#4f5355 50%);
+    background-image: -moz-linear-gradient(120deg, #313131 50%,#4f5355 50%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.contain-form{
+    display: flex;
+    margin: auto;
+    background-color: white;
+    border: 5px solid rgb(228, 227, 227);
+    border-radius: 3px;
+    width: 60%;
+    height: 85%;
+}
+
+
+.img{
+    position: relative;
+    height: 100%;
+}
+
+.logo{
+    position: absolute;
+    top: 14%;
+    left: 23%;
+    width: 7%;
+}
+
+.login-form{
+   margin-top: 1em; 
+}
+
+.top{
+    padding-left: 40%;
+    color: rgb(228, 227, 227);
+}
+
+.login{
+    margin-left:1em;
+    padding: 4px 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #4f5355;
+}
+
+.login:hover{
+    background-color: #b4bbbea4;
+    cursor: pointer;
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left:15px;
+    font-size:xx-large ;
+    text-decoration: solid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+form{
+    margin-left: 10%;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+
+input{
+    width: 100%;
+    padding: 9px 7px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: 2px solid rgb(228, 227, 227);
+    display: block;
+    /* margin-right: 10%; */
+    margin-top: 4px;
+    margin-bottom: 10px;
+    outline: none; 
+    box-shadow:   1px 2px 0px 0px #ccc;
+}
+
+input:hover{
+    border: 2px solid rgb(175, 172, 172);   
+}
+
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    color:rgb(92, 90, 90) ;
+}
+
+button{
+        padding: 7px 19px;
+        background-color: white;
+        border-radius: 30px;
+        border: 2px solid rgb(219, 216, 216);
+        box-shadow: -webkit-linear-gradient(120deg, #313131 50%,#4f5355 50%);
+}
+
+button:hover{
+    background-color: #b4bbbea4;
+    cursor: pointer;
+    outline: none;
+}
+
+@media(max-width: 750px){
+    .image-form{
+        display: none;
+    }
+
+
+    .contain-form{
+        width: 80%;
+        height: 85%;
+        max-height: 85%;
+    }
+
+    .top{
+        padding-left: 4%;
+    }
+
+    
+.title{
+    padding-left:27px;
+    font-size:larger ;
+    text-decoration: solid;
+}
+
+input{
+    padding: 10px 25px;
+    margin-top: 4px;
+    margin-bottom: 32px;  
+}
+    
+   
+}
+
+
+
