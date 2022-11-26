@@ -47,14 +47,16 @@ body{
 .login{
     margin-left:1em;
     padding: 4px 10px;
-    background-color: white;
+    background-color: rgba(0, 144, 81, 1);
+    border: 2px solid #29a26d;
+    box-shadow:   1px 2px 0px 0px #ccc;
     border-radius: 10px;
-    box-shadow: #4f5355;
 }
 
 .login:hover{
-    background-color: #b4bbbea4;
+    background-color:rgba(133, 202, 171, 1);
     cursor: pointer;
+    outline: none;
 }
 
 .title{
@@ -98,14 +100,15 @@ label{
 
 button{
         padding: 7px 19px;
-        background-color: white;
+        background-color: rgba(0, 144, 81, 1);
         border-radius: 30px;
-        border: 2px solid rgb(219, 216, 216);
-        box-shadow: -webkit-linear-gradient(120deg, #313131 50%,#4f5355 50%);
+        border: 2px solid rgba(41, 162, 109,1);
+        box-shadow:   1px 2px 0px 0px #ccc;
+        
 }
 
 button:hover{
-    background-color: #b4bbbea4;
+    background-color:rgba(133, 202, 171, 1);
     cursor: pointer;
     outline: none;
 }
