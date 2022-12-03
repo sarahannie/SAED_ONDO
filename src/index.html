@@ -1,0 +1,153 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+    <!-- nav start -->
+    <div class="md:bg-[url('../img/banner1.jpg')]  max-w-full md:h-[90%] xs:bg-cover xs:bg-[url('../img/banner2.jpg')]  xs:h-[50%]">   
+        <nav class="px-2 bg-transparent  border-gray-200 dark:bg-gray-900 dark:border-gray-700">
+    <div class="container flex flex-wrap items-center justify-between mx-auto">
+      <a href="#" class="flex items-center"> 
+          <img src="../img/log.png" class="h-6 mr-3 sm:h-10" alt="Flowbite Logo" />
+          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
+      </a>
+      <button    data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+        <ul class="flex flex-col p-4 mt-4 border  border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-green-700 rounded md:bg-transparent md:text-white md:px-0 md:hover:text-green-300 md:pt-4 md:dark:text-white dark:bg-green-800 md:dark:bg-transparent" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block  py-2 pl-3 pr-4 md:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-300  md:pt-4 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          </li>
+          <li>
+              <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-white rounded hover:bg-gray-100 md:hover:bg-transparent  md:pt-4 md:border-0 md:hover:text-green-300 md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Service <svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+              <!-- Dropdown menu -->
+              <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600 ">
+                  <ul class="py-1 text-sm text-white dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Akoko</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Akure</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Ondo</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">OKITIPUPA</a>
+                    </li>
+                  </ul>
+                  <div class="py-1">
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-400 md:hover:text-green-300 dark:hover:text-white">Sign Up</a>
+                  </div>
+              </div>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-300  md:pt-4 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          </li>
+          <li>
+            <button  class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-600 group-hover:from-green-400 group-hover:to-green-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+                <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                   <a href="">Sign In</a>
+                </span>
+              </button>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- nav end -->
+
+
+  <!-- Mainbody start --> 
+
+    <div class="">
+        <div class="text-white  md:text-[3rem] font-sans pb-0  pl-[40px] pt-[100px] xs:text-[1.3rem] ">Corps Members Creating Wealth</div>
+        <div class="text-white  font-mono md:text-[6rem]  pt-0 pl-[40px]  leading-[1em] xs:text-[3rem]">
+             SAED ONDO 
+        <div> 
+        <button  class="relative inline-flex items-center justify-center p-0.5 mb-2  mt-10 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-600 group-hover:from-green-400 group-hover:to-green-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+            <span class="relative px-11  py-3.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+               <a href="">GET STARTED</a>
+            </span>
+          </button> 
+    </div>
+  </div>
+
+  <!-- body card -->
+  <div class="md:flex md:justify-center md:m-5 xs:m-6 xs:justify-center xs:mt-15 xs:block xs:mb-10">
+    <a href="#" class="block  xs:mb-10 xs:max-h-[24rem]   ml-9 max-w-[24rem] max-h-[13rem] p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800   transition-all duration-500 ease hover:-translate-y-4   ">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white md:ml-[20px] xs:ml-[90px] ">
+        <img src="../img/style2/1.png"  class="xs:w-[50%] md:w-[90%] " width="100%" alt=""></h5>
+      <p class="font-[600] text-gray-700 dark:text-gray-400 text-center">Embrace SAED</p>
+  </a>
+  <a href="#" class="block xs:mb-10 xs:max-h-[24rem]  ml-9 max-w-[24rem] max-h-[13rem] p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 transition-all duration-500 ease hover:-translate-y-5">
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white md:ml-[20px] xs:ml-[90px]">
+      <img src="../img/style2/2.png" class="xs:w-[50%] md:w-[90%] "  width="100%" alt=""></h5>
+    <p class="font-[600] text-gray-700 dark:text-gray-400 text-center">Get Skilled</p>
+</a>
+<a href="#" class="block xs:mb-10 xs:max-h-[24rem] ml-9 max-w-[24rem] max-h-[13rem] p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700  transition-all duration-500 ease hover:-translate-y-5 ">
+  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white md:ml-[20px] xs:ml-[90px]">
+    <img src="../img/style2/3.png" class="xs:w-[50%] md:w-[90%] " width="100%"  alt="">
+  </h5>
+  <p class="font-[600] text-gray-700 dark:text-gray-400 text-center">Get Wealth</p>
+</a>
+<a href="#" class="block xs:mb-10 xs:max-h-[24rem] ml-9 max-w-[24rem] max-h-[13rem] p-6 bg-white border border-gray-200 rounded-lg shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700  transition-all duration-500 ease hover:-translate-y-5 ">
+  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white md:ml-[20px] xs:ml-[90px]">
+    <img src="../img/style2/4.png" class="xs:w-[50%] md:w-[90%] " width="100%"  alt="">
+  </h5>
+  <p class="font-[600] text-gray-700 dark:text-gray-400 text-center">Get Certified</p>
+</a>
+  </div>
+
+  <!-- about saed -->
+
+  <div class="flex m-1">
+    <div class="ml-6 mt-[15px]">
+        <img src="../img/IMG_20170427_114025.jpg" class="h-full" alt="">
+    </div>
+    <div class="mx-15">
+      <h1 class="text-center  font-serif text-[3em]">ABOUT SAED </h1>
+      <h2  class="text-center  font-serif text-[1.5em]">We are leading discovery and Innovation since 2012</h2>
+      <h6 class="  font-serif text-[1em] px-12 pl-[100px] text-justify">The Skill Acquisition and Entrepreneurship Development (SAED) was established in march, 2012, with the aim of building the capacity of young graduates as well as to provide the enabling conditions for them to cope with the challenges of unemployment and wealth creation. The NYSC SAED Project was solely conceived in response to the schemes’’ quest to profer solution to post service unemployment and to achieve one of the scheme’s main objectives of promoting self-reliance among Nigerian Youths. The Department is charged with the responsibility of promoting self-reliance and wealth creation through Skill Acquisition and Entrepreneurship Development.</h6>
+      <button  class="relative ml-[100px]  inline-flex items-center justify-center p-0.5 mb-2  mt-10 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-700 to-green-600 group-hover:from-green-400 group-hover:to-green-600 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800">
+        <span class="relative px-11  py-3.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+           <a href="">DISCOVER MORE</a>
+        </span>
+      </button> 
+    </div>
+  </div>
+
+  <!--about saed end  -->
+
+  <!-- cartcard start -->
+  <div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ducimus pariatur minima natus numquam iure veniam ipsa velit laudantium quibusdam eos harum laboriosam ea, veritatis dolore adipisci odit, vitae sapiente?
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam aut illum possimus sapiente nostrum consequuntur! Pariatur minima aperiam consequuntur eligendi saepe eaque neque sint quasi quae nesciunt, quos tempore?
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem qui consequatur ullam molestias. Ad ratione fugiat, assumenda perferendis, minima unde exercitationem quam amet voluptate eos quidem? Expedita vero error officia.
+    </div>
+  </div>
+
+  
+  
+  
+  <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+</body>
+</html>
+  
