@@ -1738,8 +1738,16 @@ video {
     background-color: transparent;
   }
 
-  .md\:bg-\[url\(\'\.\.\/img\/banner1\.jpg\'\)\] {
-    background-image: url('../img/banner1.jpg');
+  .md\:bg-\[url\(\'\.\.\/img\/babber1\.jpg\'\)\] {
+    background-image: url('../img/babber1.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/img\/banner\.jpg\'\)\] {
+    background-image: url('../img/banner.jpg');
+  }
+
+  .md\:bg-\[url\(\'\.\.\/img\/banner11\.jpg\'\)\] {
+    background-image: url('../img/banner11.jpg');
   }
 
   .md\:p-0 {
