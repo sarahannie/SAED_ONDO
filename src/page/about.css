@@ -1,0 +1,16 @@
+.bgn{
+    background-image: url(../img/about1.jpg);
+    width: 100vw;
+    height: 70%;
+    background-size: cover;
+}
+
+@media screen and (max-width: 800px){
+    .bgn{
+        
+    }
+
+    .container{
+        color: black;
+    }
+}
