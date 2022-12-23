@@ -7,10 +7,7 @@
 
 @media screen and (max-width: 800px){
     .bgn{
-        
-    }
-
-    .container{
-        color: black;
+        background-image: url(../img/aboutmin1.jpg);
+        height: 50%;
     }
 }
