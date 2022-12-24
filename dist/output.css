@@ -1759,6 +1759,10 @@ video {
     padding-bottom: 7rem;
   }
 
+  .xs\:pt-28 {
+    padding-top: 7rem;
+  }
+
   .xs\:text-center {
     text-align: center;
   }
