@@ -1,0 +1,12 @@
+.bgn{
+    background-image: url(../img/about2.jpg);
+    width: 100vw;
+    background-size: cover;
+}
+
+@media screen and (max-width: 800px){
+    .bgn{
+        background-image: url(../img/aboutmin2.jpg);
+        height: 50%;
+    }
+}
