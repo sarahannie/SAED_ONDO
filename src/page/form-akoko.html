@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css"
+    />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/log2.png" />
+    <title>SAEDONDO</title>
+</head>
+<body>
+    <div class="flex justify-center items-center  w-full pt-24 pb-24 bg-green-400">
+        <div class="w-1/2 bg-white rounded shadow-2xl p-8  m-4">
+            <h1 class="block w-full text-center text-gray-800 text-2xl font-bold mb-6">Trainer's Form</h1>
+            <form action="/" method="post">
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="first_name">First Name</label>
+                    <input class="border py-2 px-3 text-grey-800" type="text" name="first_name" id="first_name" placeholder="Sarah">
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="last_name">Last Name</label>
+                    <input class="border py-2 px-3 text-grey-800" type="text" name="last_name" id="last_name" placeholder="Annie">
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="email">Email</label>
+                    <input class="border py-2 px-3 text-grey-800" type="email" name="email" id="email" placeholder="sarahannie@gmail.com">
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="code">State Code</label>
+                    <input class="border py-2 px-3 text-grey-800" type="text" name="code" id="code" placeholder="OD/22A/0001">
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="code">Trainer's Name</label>
+                    <input class="border py-2 px-3 text-grey-800" type="text" name="TN" id="TN" placeholder="Tee's Makeup">
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="mb-2 font-bold text-lg text-gray-900" for="city">City</label>
+                    <input class="border py-2 px-3 text-grey-800" type="text" value="Akoko" readonly name="code" id="code" >
+                </div>
+                <button class="block bg-teal-900 hover:bg-teal-600 text-green-300 uppercase text-lg mx-auto p-4 rounded" type="submit">Register</button>
+            </form>
+            <a class="block w-full text-center no-underline mt-4 text-sm text-gray-700 hover:text-gray-900" href="/login">Already have an account? proceed to the venue</a>
+        </div>
+    </div>
+</body>
+</html>
