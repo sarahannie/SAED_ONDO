@@ -86,14 +86,14 @@ button{
         width: 100%;
         padding: 7px 19px;
         margin-top: 6 px;
-        background-color: rgba(0, 144, 81, 1);
+        background-color: white;
         border-radius: 30px;
-        border: 2px solid rgba(41, 162, 109,1);
+        border: 2px solid rgb(56, 160, 115);
         box-shadow:   1px 2px 0px 0px #ccc;
 }
 
 button:hover{
-    background-color:rgba(133, 202, 171, 1);
+    background-color:rgb(13, 113, 68);
     cursor: pointer;
     outline: none;
 }
