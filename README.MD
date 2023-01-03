@@ -30,7 +30,10 @@ The dashboard on Saedondo is only accessible to the administrator and allows the
 
 ## User Registration
 In order to access the skills training courses and other features on Saedondo, users must first create an account. This involves providing some basic personal information and creating a unique username and password. Once registered, users can log in to their account at any time to access the training materials and track their progress.
-![user registration page](./img/)
+![user registration page](./img/user.png)
+
+
+
 ## Customized Training Plans
 At Saedondo, we recognize that every learner is different and has unique needs and goals. To help our users achieve success, we offer customizable training plans that allow them to focus on the areas that are most relevant to their needs and interests.
 ![Training page](./img/skill%20training.png)
@@ -49,7 +52,7 @@ In addition to the skills training courses, Saedondo also offers a community for
 ## Mobile Compatibility
 Saedondo is designed to be fully mobile compatible, allowing users to access the website and complete their training from any device with an internet connection. This means that users can learn on the go, at their own convenience, without the need for a desktop or laptop computer.
 ![mobile view page](./img/mobile1.png)
-[mobile view page](./img/mobile1.png)
+[mobile view page](./img/mobile2.png)
 
 ## Security
 At Saedondo, we take the security of our users' personal information and data very seriously. We use industry-standard encryption to protect all transmitted data and have implemented strict security measures to prevent unauthorized access to our systems. We also regularly review and update our security protocols to ensure that our users' data remains safe and secure.
