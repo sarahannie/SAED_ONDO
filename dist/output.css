@@ -2532,8 +2532,8 @@ video {
     margin-bottom: 60px;
   }
 
-  .xs\:mt-\[23rem\] {
-    margin-top: 23rem;
+  .xs\:mt-\[15rem\] {
+    margin-top: 15rem;
   }
 
   .xs\:mr-4 {
@@ -2632,11 +2632,6 @@ video {
     background-size: cover;
   }
 
-  .xs\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
   .xs\:py-7 {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
@@ -2645,6 +2640,11 @@ video {
   .xs\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .xs\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 
   .xs\:pl-0 {
@@ -2700,6 +2700,11 @@ video {
   .xs\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xs\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -2835,8 +2840,8 @@ video {
     margin-top: 0px;
   }
 
-  .md\:mt-\[19rem\] {
-    margin-top: 19rem;
+  .md\:mt-\[15rem\] {
+    margin-top: 15rem;
   }
 
   .md\:mr-14 {
