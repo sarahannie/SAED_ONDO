@@ -66,13 +66,12 @@ body{
     padding-left:19px;
     font-size:x-large ;
     text-decoration: solid;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 2rem;
 }
 
 form{
     margin-left: 10%;
-    margin-top: 0em;
     margin-block-end: 1em;
 }
 
@@ -101,7 +100,7 @@ label{
 }
 
 button{
-        margin-top: 10px;
+        margin-top: 2px;
         padding: 10px 30px;
         background-color: white;
         border-radius: 30px;
@@ -129,7 +128,7 @@ button:hover{
     }
 
     .top{
-        padding-left: 4%;
+        padding-left: 1%;
     }
 
     
@@ -146,7 +145,7 @@ input{
 }
 
 button{
-    margin-top: 10px;
+    margin-top: 1px;
 }
     
    
