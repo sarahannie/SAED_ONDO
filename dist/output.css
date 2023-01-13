@@ -2632,6 +2632,11 @@ video {
     background-size: cover;
   }
 
+  .xs\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
   .xs\:py-7 {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
@@ -2640,11 +2645,6 @@ video {
   .xs\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .xs\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
   }
 
   .xs\:pl-0 {
@@ -2679,6 +2679,11 @@ video {
     text-align: center;
   }
 
+  .xs\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .xs\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -2700,11 +2705,6 @@ video {
   .xs\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .xs\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 }
 
@@ -2840,8 +2840,8 @@ video {
     margin-top: 0px;
   }
 
-  .md\:mt-\[15rem\] {
-    margin-top: 15rem;
+  .md\:mt-\[17rem\] {
+    margin-top: 17rem;
   }
 
   .md\:mr-14 {
@@ -3055,6 +3055,11 @@ video {
     line-height: 1.25rem;
   }
 
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -3071,11 +3076,6 @@ video {
 
   .md\:text-\[6rem\] {
     font-size: 6rem;
-  }
-
-  .md\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .md\:text-base {
